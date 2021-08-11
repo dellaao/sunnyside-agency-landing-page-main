@@ -1,5 +1,11 @@
-@import url('https://fonts.google.com/specimen/Barlow:600');
+/* @import url('https://fonts.google.com/specimen/Barlow');
+@import url('https://fonts.google.com/specimen/Fraunces'); */
 
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+
+h1{
+  font-family: 'Fraunces', serif;
+}
 
 *{
     /* background-color: wheat; */
@@ -10,24 +16,20 @@
 }
 
 .body{
-    font-family: sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
-
-/* div.overlay{
-  background-image: url("images/dekstop/image-header.jpg");
-  background-color: brown;
-} */
 
 .headd{
     background-image: url(../images/mobile/image-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 75vh;
-    /* padding: 0px 24px 32px; */
+    height: 110vh;
 }
 
 /* NAV JS */
+
+
 
   nav {
     background-color: #3ebfff;
@@ -59,8 +61,24 @@
   .toggle a {
     font-size: 20px;
   }
-  .button.secondary {
-    border-bottom: 1px rgb(255, 255, 255) solid;
+
+  .button {
+   
+  }
+
+  .button a{
+    
+    background-color: #6dceff;
+    /* border: 3px hsl(51, 100%, 49%); */
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+
   }
   
   /* Mobile menu */
@@ -121,8 +139,14 @@
 
 /* NAV JS */
 
+.gridtanpabg{
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
 
 .title{
+    font-family: 'Fraunces', serif;
+    padding-top: 2em;
     font-weight: bold;
     font-size: 50px;
     color : white;
@@ -160,6 +184,7 @@
 }
 
 .sub{
+  font-family: 'Barlow', sans-serif;
   padding: 20px 40px;
   text-align: justify; 
   text-align-last: left;
@@ -172,17 +197,16 @@
   text-align: center;
 }
 
-.sub{
+.underline{
+  font-family: 'Fraunces', sans-serif;
+  text-decoration-color: hsl(51, 100%, 49%);
   padding: 20px 40px;
   text-align: justify; 
   text-align-last: left;
 }
 
-.underline{
-  text-decoration-color: hsl(51, 100%, 49%);
-}
-
 .design{
+  color: hsl(167, 40%, 24%);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -195,7 +219,8 @@
 }
 
 .photography{
-  display: flex;
+  color: hsl(198, 62%, 26%);
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
     background-repeat: no-repeat;
@@ -225,6 +250,9 @@
 
 .card{
     /* background-color: white; */
+    font-family: 'Barlow', sans-serif;
+    margin-top: 5em;
+    margin-bottom: 5em;
     overflow: hidden;
     text-align: center;
     position: relative;
@@ -237,9 +265,13 @@
 }
 
 .name{
+  font-family: 'Fraunces', serif;
   font-weight: bold;
 }
 
+.position{
+  color: #b6b6b6;
+}
 
 .subcard{
   font-size: 0.9rem;
@@ -290,6 +322,10 @@
 
 }
 
+.menubawah a{
+  color: hsl(168, 34%, 41%);
+}
+
 .sosmed {
     padding: 2em;
     padding-bottom: 2em;
@@ -300,6 +336,7 @@
 }
 
 .logoakhir img{
+  color: hsl(168, 34%, 41%);
   display: block;
   margin-left: auto;
   margin-right: auto;
